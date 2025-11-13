@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تصفح الأدوية</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <button id="openSidebar">☰ القائمة</button>
+  <div class="sidebar" id="sidebar">
+    <button id="closeSidebar">✖ إغلاق</button>
+    <h3>🛒 عربة التسوق</h3>
+    <div id="cart"></div>
+    <hr>
+    <h3>⚕️ تصنيفات الأعراض</h3>
+    <ul>
+      <li>كحة</li><li>صداع</li><li>طفح جلدي</li><li>حساسية أنف</li><li>تقيؤ</li><li>سخونية</li>
+    </ul>
+    <button id="toggleTheme">🌙 تبديل الوضع</button>
+    <button onclick="location.href='bot.html'">🤖 البوت الذكي</button>
+  </div>
+  <h1>🩺 قائمة الأدوية</h1>
+  <input type="text" id="search" placeholder="ابحث عن دواء...">
+  <div id="drugsList"></div>
+  <script src="js/drugs.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
