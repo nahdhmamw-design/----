@@ -1,0 +1,5 @@
+[
+{"name_ar":"باراسيتامول","name_en":"Paracetamol","active":"Paracetamol","forms":["قرص","شراب"],"dosage":"10mg/kg","age":"all","symptoms":["كحة","صداع","سخونية"]},
+{"name_ar":"أيبوبروفين","name_en":"Ibuprofen","active":"Ibuprofen","forms":["قرص","شراب"],"dosage":"5mg/kg","age":"all","symptoms":["صداع","سخونية"]},
+{"name_ar":"سيتال","name_en":"Cital","active":"Citalopram","forms":["قرص"],"dosage":"20mg","age":"adult","symptoms":["طفح جلدي"]}
+]
